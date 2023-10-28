@@ -17,9 +17,9 @@ pipeline {
             }
         }
     }
-}
 post {
     always {
-        echo "i run only when build success"
+        echo "it always says  only hello"
     }
+}
 }
