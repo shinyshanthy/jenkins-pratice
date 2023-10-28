@@ -18,3 +18,8 @@ pipeline {
         }
     }
 }
+post {
+    always {
+        echo "i run only when build success"
+    }
+}
